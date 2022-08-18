@@ -26,7 +26,7 @@ function App() {
       <div className="container-fluid">
       <div className="row">
         <div className="col"><hr/><TokenForm /><hr/></div>
-        <div className="col"><hr/><RichTextEditor  /></div>
+        <div className="col"><hr/><RichTextEditor/></div>
       </div>        
       </div>
 
