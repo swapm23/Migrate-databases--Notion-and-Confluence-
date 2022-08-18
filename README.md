@@ -17,6 +17,7 @@ $ npx create-react-app My_app_name
 $ cd My_app_name
 $ npm install bootstrap
 $ npm install sass
+$ npm install jodit-react --save
 $npm start
 ```
 
