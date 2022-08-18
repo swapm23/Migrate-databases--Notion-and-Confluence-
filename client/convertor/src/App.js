@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-      const[data, setValue]= useState([])
+      const[database_notion, setValue]= useState([])
       useEffect(()=>{
         const fetchData = async() => {
           const res = await fetch('http://localhost:5000/getNotionDatabase')
@@ -26,7 +26,7 @@ function App() {
       <div className="container-fluid">
       <div className="row">
         <div className="col"><hr/><TokenForm /><hr/></div>
-        <div className="col"><hr/><RichTextEditor/></div>
+        <div className="col"><hr/><RichTextEditor  /></div>
       </div>        
       </div>
 
