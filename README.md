@@ -1,13 +1,13 @@
 # Migrate-databases--Notion-and-Confluence-
 
-cd server
-  - open terminal 
-  npm init -y
-  goto package.json and add - "start": "index.js" in the "scripts" block and copy server files.
-  npm install @notionhq/client@0.4.9 express dotenv axios cors bodyparser
+-cd server
+- open terminal 
+-npm init -y
+-goto package.json and add - "start": "index.js" in the "scripts" block and copy server files.
+-npm install @notionhq/client@0.4.9 express dotenv axios cors bodyparser
 
-open slpit terminal
-  cd client
-  npx create-react-app My_app_name
-  cd My_app_name
-  npm install sass
+-open slpit terminal
+  -cd client
+  -npx create-react-app My_app_name
+  -cd My_app_name
+  -npm install sass
