@@ -4,17 +4,32 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import RichTextEditor from './components/RichTextEditor'
 import TokenForm from './components/TokenForm'
+import { useEffect, useState } from 'react';
 
 function App() {
+
+      const[data, setValue]= useState([])
+      useEffect(()=>{
+        const fetchData = async() => {
+          const res = await fetch('http://localhost:5000/getNotionDatabase')
+          const data = await res.json()
+          console.log(data)
+        }
+        fetchData()
+      })
+
+
   return (
     <div className="App">
       
       <Navbar/>
-
+      <div className="container-fluid">
       <div className="row">
-        <div className="col"><TokenForm /></div>
-        <div className="col"><RichTextEditor/></div>
+        <div className="col"><hr/><TokenForm /><hr/></div>
+        <div className="col"><hr/><RichTextEditor/></div>
+      </div>        
       </div>
+
       
     </div>
   );

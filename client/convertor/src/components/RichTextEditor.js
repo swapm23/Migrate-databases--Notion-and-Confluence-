@@ -3,6 +3,8 @@ import JoditEditor from "jodit-react";
 
 const config = {
   buttons: ["bold", "italic", "link", "unlink", "underline", "source"],
+  height: 500,
+  theme: 'dark'
 };
 
 const RichTextEditor = ({ initialValue, getValue }) => {

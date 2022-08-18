@@ -4,9 +4,9 @@ export default function Navbar() {
   return (
     <div>
 
-<nav  class="navbar navbar-expand-lg bg-Dark">
+<nav  class="navbar-nav navbar-expand-lg bg-Dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">CONVERTER</a>
+    <a class="navbar-brand" href="#"><h1 className="titleOfNavbar">CONVERTER</h1></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
