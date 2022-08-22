@@ -1,7 +1,7 @@
 const axios = require('axios');
 const dotenv = require('dotenv').config()
 var test = null
-const API_key = process.env.MONGO_API_KEY; 
+
 var data = JSON.stringify({
     "collection": "id and tokens",
     "database": "notion_confluence",
@@ -17,7 +17,7 @@ var config = {
     headers: {
       'Content-Type': 'application/json',
       'Access-Control-Request-Headers': '*',
-      'api-key': API_key ,
+      'api-key': 'dnWtA6F9NYecTZSxYixHBMpqUmwnNh7EZbX8TlIOqsGFyd4ChvFkzRzA8GELYgwG' ,
     },
     data: data
 };

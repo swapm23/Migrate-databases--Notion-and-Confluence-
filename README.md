@@ -18,7 +18,7 @@ $ cd My_app_name
 $ npm install bootstrap
 $ npm install sass
 $ npm install jodit-react --save
-$npm start
+$ npm start
 ```
 
 
