@@ -1,7 +1,7 @@
 # Migrate-databases--Notion-and-Confluence-
 ## Installation
 ***
-A little intro about the installation. 
+Installation process. 
 ```
 $ cd server
 $ open terminal 
